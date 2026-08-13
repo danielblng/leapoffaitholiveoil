@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: black-rook-digital/leap-of-faith   # <-- change to the real GitHub owner/repo
+  repo: danielblng/leapoffaitholiveoil
   branch: main
   base_url: https://sveltia-cms-auth.danielblng.workers.dev
 
