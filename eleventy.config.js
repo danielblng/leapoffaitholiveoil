@@ -26,12 +26,19 @@ function escapeHtml(s) {
 module.exports = function (eleventyConfig) {
   eleventyConfig.on("eleventy.before", loadContent);
 
+  // Static assets & folders copied straight through
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/admin");
+
+  // Root-level static files
   eleventyConfig.addPassthroughCopy("src/favicon.svg");
   eleventyConfig.addPassthroughCopy("src/apple-touch-icon.png");
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/sitemap.xml");
+  eleventyConfig.addPassthroughCopy("src/_headers");
 
+  // Inject CMS content into any element carrying a data-cms-* attribute
   eleventyConfig.addTransform("cms-inject", function (html, outputPath) {
     if (!outputPath || !outputPath.endsWith(".html")) return html;
     const hadDoctype = /^\s*<!doctype/i.test(html);
