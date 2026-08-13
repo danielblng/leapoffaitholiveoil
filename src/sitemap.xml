@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://leapoffaitholiveoil.com.au/</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://leapoffaitholiveoil.com.au/assets/leap-of-faith-olive-grove-cobaw-ridge.jpg</image:loc>
+      <image:caption>Olive grove at Cobaw Ridge, central Victoria</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://leapoffaitholiveoil.com.au/assets/leap-of-faith-grove-cobaw-ridge-daylight.jpg</image:loc>
+      <image:caption>Leap of Faith olive grove in daylight</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://leapoffaitholiveoil.com.au/assets/leap-of-faith-olive-trees-victoria.jpg</image:loc>
+      <image:caption>Olive trees at the Vassallo family grove</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://leapoffaitholiveoil.com.au/assets/leap-of-faith-extra-virgin-olive-oil-detail.jpg</image:loc>
+      <image:caption>Olives on the branch</image:caption>
+    </image:image>
+  </url>
+</urlset>

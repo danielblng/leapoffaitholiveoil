@@ -1,0 +1,13 @@
+{
+  "name": "leap-of-faith",
+  "private": true,
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "node-html-parser": "^6.1.13",
+    "markdown-it": "^14.1.0"
+  }
+}
