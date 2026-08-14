@@ -18,7 +18,11 @@
   Cache-Control: public, max-age=0, must-revalidate
 
 # ===== Security headers (apply to everything) =====
+# TEST DEPLOYMENT: the X-Robots-Tag line below hides this whole site from
+# search engines. >>> REMOVE it before you launch on the real custom domain,
+# or the live site will be de-indexed too. <<<
 /*
+  X-Robots-Tag: noindex, nofollow
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
